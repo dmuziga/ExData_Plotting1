@@ -16,7 +16,7 @@ datetime <- as.POSIXct(Edate)
 
 #ploting the GLOBAL_aCTIVE_POWER IN TIME
 plot(Electricity$Global_active_power~datetime,type="l",xlab = "", ylab = "Global Active Power(kilowatts)")
-#saving  the Histogram in PNG
+#saving  Graph
 
 dev.copy(png, file="plot2.png",height = 480, width=480 )
 
