@@ -29,6 +29,7 @@ with(Electricity, {
 
 plot(Electricity$Global_reactive_power~datetime, type= "l", xlab = "datetime", ylab = "Global_reactive_power")
 
+#saving  the Graph in PNG
 dev.copy(png,file="Plot4.png", height = 480, width=480 )
 
 dev.off()
